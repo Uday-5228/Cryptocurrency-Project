@@ -1,8 +1,6 @@
 # 🪙 Cryptoverse - Real-time Crypto Analytics
 
-Cryptoverse is a comprehensive cryptocurrency application that provides real-time data, detailed statistics, and the latest news from the world of digital currencies. 
-
-![Cryptoverse Preview](https://github.com/Uday-5228/Cryptocurrency-Project/raw/main/public/preview.png) *(Add a screenshot here later)*
+Cryptoverse is a comprehensive cryptocurrency application that provides real-time data, detailed statistics, and the latest news from the world of digital currencies.
 
 ## 🚀 Features
 
@@ -19,14 +17,13 @@ Cryptoverse is a comprehensive cryptocurrency application that provides real-tim
 - **UI Components**: Ant Design
 - **Data Visualization**: Chart.js
 - **API Integration**: Axios & RapidAPI (Coinranking & Bing News)
-- **Styling**: CSS with Ant Design themes
 
 ## ⚙️ Installation
 
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/Uday-5228/Cryptocurrency-Project.git
-   cd cryptoverse
+   cd Cryptocurrency-Project/cryptoverse
    ```
 
 2. **Install dependencies:**
@@ -35,30 +32,15 @@ Cryptoverse is a comprehensive cryptocurrency application that provides real-tim
    ```
 
 3. **Set up Environment Variables:**
-   Create a `.env` file in the root directory and add your RapidAPI keys:
+   Create a `.env` file in the `cryptoverse` directory and add your RapidAPI keys:
    ```env
    VITE_RAPIDAPI_KEY=your_api_key_here
    ```
-   *(Note: You can get your keys from [RapidAPI.com](https://rapidapi.com/))*
 
 4. **Run the application:**
    ```bash
    npm run dev
    ```
-
-## 📸 Screenshots
-
-| Home Page | Crypto Details | News Feed |
-| :---: | :---: | :---: |
-| *(Image Link)* | *(Image Link)* | *(Image Link)* |
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/Uday-5228/Cryptocurrency-Project/issues).
-
-## 📜 License
-
-This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
 
 ---
 Made with ❤️ by [Uday](https://github.com/Uday-5228)
