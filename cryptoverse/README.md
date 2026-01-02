@@ -1,16 +1,64 @@
-# React + Vite
+# 🪙 Cryptoverse - Real-time Crypto Analytics
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Cryptoverse is a comprehensive cryptocurrency application that provides real-time data, detailed statistics, and the latest news from the world of digital currencies. 
 
-Currently, two official plugins are available:
+![Cryptoverse Preview](https://github.com/Uday-5228/Cryptocurrency-Project/raw/main/public/preview.png) *(Add a screenshot here later)*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- **Live Crypto Market**: View stats on the top 50/100 cryptocurrencies.
+- **Detailed Insights**: Get in-depth information about individual coins, including price changes, market cap, and links.
+- **Interactive Charts**: Visualize historical price data using Chart.js.
+- **Crypto News**: Stay updated with the latest headlines in the crypto space.
+- **Responsive Design**: Fully optimized for desktops, tablets, and mobile devices.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend**: React.js (Vite)
+- **State Management**: Redux Toolkit & RTK Query
+- **UI Components**: Ant Design
+- **Data Visualization**: Chart.js
+- **API Integration**: Axios & RapidAPI (Coinranking & Bing News)
+- **Styling**: CSS with Ant Design themes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚙️ Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Uday-5228/Cryptocurrency-Project.git
+   cd cryptoverse
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Set up Environment Variables:**
+   Create a `.env` file in the root directory and add your RapidAPI keys:
+   ```env
+   VITE_RAPIDAPI_KEY=your_api_key_here
+   ```
+   *(Note: You can get your keys from [RapidAPI.com](https://rapidapi.com/))*
+
+4. **Run the application:**
+   ```bash
+   npm run dev
+   ```
+
+## 📸 Screenshots
+
+| Home Page | Crypto Details | News Feed |
+| :---: | :---: | :---: |
+| *(Image Link)* | *(Image Link)* | *(Image Link)* |
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/Uday-5228/Cryptocurrency-Project/issues).
+
+## 📜 License
+
+This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
+
+---
+Made with ❤️ by [Uday](https://github.com/Uday-5228)
